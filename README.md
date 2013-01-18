@@ -1,5 +1,8 @@
 WARNING: 
 --------
+
+These are my Marlin settings, I switched some pins. 
+
 THIS IS RELEASE CANDIDATE 2 FOR MARLIN 1.0.0
 
 The configuration is now split in two files
