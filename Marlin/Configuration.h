@@ -275,13 +275,13 @@ const bool Z_ENDSTOPS_INVERTING = false; // set to true to invert the logic of t
 
 //// MOVEMENT SETTINGS
 #define NUM_AXIS 4 // The axis order in all axis related arrays is X, Y, Z, E
-#define HOMING_FEEDRATE {50*60, 50*60, 4*60, 0, 0}  // set the homing speeds (mm/min)
+#define HOMING_FEEDRATE {50*60, 50*60, 4*60, 0}  // set the homing speeds (mm/min)
 
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   {80.010101,80.07394823623464, 2563.3323320316413, 638.8352920540257}   // me gemessen   X=zu kurz() Y=zu lang (,2)   Z zu lang (,54)(99,15 79.8950179464184   E new extruder -- Blcak gears herringbone
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {80.010101,80.07394823623464, 2563.3323320316413, 93.820761, 93.820761}   //EPROM me gemessen   X=zu kurz() Y=zu lang (,2)   Z zu lang (,54)(99,15 79.8950179464184   E new extruder Bowden Mk7
-#define DEFAULT_MAX_FEEDRATE          {300, 300, 4, 54.10821643286573,  54.10821643286573}   //EPROM
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {80.010101,80.07394823623464, 2563.3323320316413, 93.820761}   //EPROM me gemessen   X=zu kurz() Y=zu lang (,2)   Z zu lang (,54)(99,15 79.8950179464184   E new extruder Bowden Mk7
+#define DEFAULT_MAX_FEEDRATE          {300, 300, 4, 54.10821643286573}   //EPROM
 //#define DEFAULT_MAX_FEEDRATE          {300, 300, 2, 54.10821643286573} //EPROM
-#define DEFAULT_MAX_ACCELERATION      {900,900,80,1000,1000} // EPROM
+#define DEFAULT_MAX_ACCELERATION      {900,900,80,1000} // EPROM
 #define DEFAULT_ACCELERATION          300    //EPROM X, Y, Z and E max acceleration in mm/s^2 for printing moves 
 #define DEFAULT_RETRACT_ACCELERATION  1000    //EPROM
 //#define DEFAULT_RETRACT_ACCELERATION  300   // X, Y, Z and E max acceleration in mm/s^2 for r retracts
